@@ -190,18 +190,21 @@ Nᴀᴍᴇ - {}"""
 <b>📂 File Name : {file_name}</b>
 <b>🔘 File Size : {file_size}</b>
 
-╭─── • ❰Created by @gtxPrime ❱ • ────➤
-┣ ▫️ @XCipher
+╭─── • ❰Created by @ ❱ • ────➤
+┣ ▫️ @
 ╰─────── • ◆ • ───────➤"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
 IMDb Data:
 
-🏷 Title: <a href={url}>{title}</a>
+#🏷 Title: <a href={url}>{title}</a>
+🏷 Title: <a href={title}</a>
 🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
+#📆 Year: <a href={url}/releaseinfo>{year}</a>
+📆 Year: <a href=/releaseinfo>{year}</a>
+#🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
+🌟 Rating: <a href=/ratings>{rating}</a> / 10</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
